@@ -116,7 +116,7 @@ button:active{transform:scale(.96)}
 <div class="container">
 
 <div class="header">
-  <h1>NGUYEN ANH HAO <span>PYTHON OBFUSCATOR</span></h1>
+  <h1>Le Tien Dung <span>PYTHON OBFUSCATOR</span></h1>
 </div>
 
 <div class="controls">
@@ -149,7 +149,7 @@ button:active{transform:scale(.96)}
 </div>
 
 <div class="footer">
-  NGUYEN ANH HAO – Python Obfuscator
+  Le Tien Dung – Python Obfuscator
 </div>
 
 </div>
@@ -180,7 +180,7 @@ function obfuscate(){
 
   const encoded=btoa(unescape(encodeURIComponent(code)));
 
-  const pythonStub = `# Nguyen Anh Hao Obfuscated
+  const pythonStub = `# Le Tien Dung Obfuscated
 import sys, os, time, base64, hashlib
 
 def __anti_debug__():
@@ -211,7 +211,7 @@ function downloadFile(){
   const blob=new Blob([data],{type:"text/plain"});
   const a=document.createElement("a");
   a.href=URL.createObjectURL(blob);
-  a.download="obf_nguyen_anh_hao.py";
+  a.download="obf_le_tien_dung.py";
   a.click();
   log("Da tai file","ok");
 }
